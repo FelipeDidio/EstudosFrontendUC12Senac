@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Login</legend>
+            <label>Nome: (mínimo 4 e máximo 20 caracteres)</label>
+            <input type="text" minlength="4" maxlength="20" size="25">
+            <br><br>
+            <label>Senha: (mínimo 8 caracteres)</label>
+            <input type="password" minlength="8" size="29">
+            <br><br>
+            <button type ="submit">Enviar</button>
+            <button type ="reset">Limpar</button>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Cadastro de usuário</legend>
+            <label>Nome*:</label>
+            <input type="text" size="20" required>
+            <br><br>
+            <label>Email*:</label>
+            <input type="email" size="20" required>
+            <br><br>
+            <label>Telefone:</label>
+            <input type="tel" size="18">
+            <br><br>
+            <label>Tuno disponível</label>
+            <br>
+            <input type="checkbox">Manhã<br>
+            <input type="checkbox">Tarde<br>
+            <input type="checkbox">Noite<br>
+            <br><br>
+            <label>Estado civil</label>
+            <input type="radio" name="estadoCivil">Solteiro<br>
+            <input type="radio" name="estadoCivil">Casado<br>
+            <input type="radio" name="estadoCivil">Separado<br>
+            <input type="radio" name="estadoCivil">Divorciado<br>
+            <input type="radio" name="estadoCivil">Viúvo<br>
+            <br>
+
+            <label>Cidade</label>
+            <select>
+                <option>Porto Alegre</option><br>
+                <option>Alvorada</option><br>
+                <option>Cachoeirinha</option><br>
+                <option>Gravataí</option><br>
+                <option>Canoas</option><br>
+                <option>Esteio</option><br>
+            </select>
+            <br><br>
+            <label>Envie seu curículo*</label>
+            <input type="file" required>
+            <br><br>
+            <label>Cor preferida:</label>
+            <input type="color">
+            <br><br>
+            <label>Dia disponível da entrevista</label>
+            <input type="date">
+            <br><br>
+            <label>Hora disponível da entrevista</label>
+            <input type="time">
+            <br><br>
+            <label>Data e hora disponível da entrevista</label>
+            <input type="datetime-local">
+            <br><br>
+            <label>Nível da skill</label>
+            <input type="range">
+            <br><br>
+            <label>Deixe sua menssagem*:</label><br>
+            <textarea cols="30" rows="10" placeholder="Deixe uma menssagem para nós!" required></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
