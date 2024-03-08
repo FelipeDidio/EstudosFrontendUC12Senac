@@ -8,14 +8,36 @@ body{
     background-size:cover;
 }
 h1,h2,h3{
-    color:navy;
+    /* color:navy; */
+    color: rgb(72, 101, 124);
 }
 
 h1{
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     letter-spacing: -4px;
     font-family: "batman";
+    text-shadow: 1px 1px 4px gray;
+    
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes position {
+    0%{
+        transform: translate(-1200px, 0);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+    
 }
 
 h2{
@@ -30,7 +52,9 @@ h2{
 h3{
     font-size: 18px;
     font-style: italic;
-    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 
 a:link, a:visited{
@@ -42,9 +66,9 @@ a:link, a:visited{
 a:hover{
     color:rgb(10, 107, 75);
     font-size: 18px;
-    border-width: 0 0 3px 0;
+    /* border-width: 0 0 3px 0;
     border-style: solid;
-    border-color:black;
+    border-color:black; */
     cursor: url("/cursores/GhostGlow.cur"), default;
     transition: color 0.5s, font-size 0.5s;
 }
@@ -74,6 +98,8 @@ p{
 .banner{
     width:100%;
     box-shadow: 2px 2px 7px rgb(70, 69, 69);
+    animation: fade 3s;
+    animation: position 3s;
 }
 
 .img-devs{
