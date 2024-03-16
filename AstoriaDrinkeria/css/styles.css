@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../img/festa-orange.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    background-position: right;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(245, 94, 7);
+    margin-top: 120px;
+    margin-left: 150px;
+}
+h2{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+strong{
+    color: rgb(245, 94, 7);
+}
+img{
+    height: 50px;
+    display: flex;
+}
+form{
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    line-height: 30px;
+}
+label{
+    margin-top: 15px;
+}
+input{
+    width: 280px;
+    height: 25px;
+    border-radius: 6px;
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    margin-top:15px ;
+    margin-right: 20px;
+    float: left;
+    background-color: rgb(245, 94, 7);
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
