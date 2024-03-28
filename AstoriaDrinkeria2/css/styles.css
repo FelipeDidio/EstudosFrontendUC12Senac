@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../img/fundoSiteAstoria.png");
+    background-color: rgb(225, 223, 221);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    background-position: right;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+header img{
+    margin-left: 110px;
+}
+
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(2, 2, 2);
+    margin-top: 60px;
+    margin-left: 150px;
+}
+h2{
+    color: rgb(2, 2, 2);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+strong{
+    color: rgb(255, 29, 0);
+}
+img{
+    height: 40px;
+    display: flex;
+    
+}
+form{
+    margin-top: 5px;
+    margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    line-height: 20px;
+    color: rgb(2, 2, 2);
+}
+label{
+    margin-top: 15px;
+}
+input{
+    width: 280px;
+    height: 25px;
+    border-radius: 6px;
+    border-color: rgb(255, 29, 0);
+    background-color: transparent;
+    color:  rgb(2, 2, 2);
+    outline: unset;
+}
+
+input:focus{
+    width: 280px;
+    height: 25px;
+    border-radius: 6px;
+    border-color: rgb(255, 29, 0);
+    background-color: transparent;
+    color:  rgb(2, 2, 2);
+    outline: unset;
+}
+
+::placeholder{
+    background-color: transparent;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    margin-top:15px ;
+    margin-right: 20px;
+    float: left;
+    background-color: rgb(255, 29, 0);
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+h4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-top: 25px;
+    color: black;
+}
+
+footer{
+    width: 50%;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.container-drinks{
+    width: 150px;
+    margin-right: 50px;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: 10px;
+    box-shadow: 2px 2px 8px rgb(148, 146, 146);
+}
+
+.container-img-drinks{
+      
+    
+    margin-left: 0px;
+    
+}
+
+.texto-drink{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+
+}
+.container-texto-drinks{
+    display: flex;
+    flex-direction: column;
+}

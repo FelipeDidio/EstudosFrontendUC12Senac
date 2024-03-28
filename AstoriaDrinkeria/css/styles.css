@@ -44,7 +44,7 @@ strong{
     color: rgb(245, 94, 7);
 }
 img{
-    height: 50px;
+    height: 40px;
     display: flex;
 }
 form{
@@ -63,9 +63,24 @@ input{
     width: 280px;
     height: 25px;
     border-radius: 6px;
-    border-color: white;
-    background-color: black;
+    border-color: rgb(245, 94, 7);
+    background-color: transparent;
     color: white;
+    outline: unset;
+}
+
+input:focus{
+    width: 280px;
+    height: 25px;
+    border-radius: 6px;
+    border-color: rgb(245, 94, 7);
+    background-color: transparent;
+    color: white;
+    outline: unset;
+}
+
+::placeholder{
+    background-color: transparent;
 }
 button{
     width: 100px;
