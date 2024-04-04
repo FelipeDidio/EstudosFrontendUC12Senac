@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +11,55 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--FAVICON-->
+    <link rel="icon" href="./img/logo-orange-favicon.png">
+
+    <style>
+        @media(max-width:1040px){
+            body{
+                background-image: none;
+            }
+        }
+
+        @media(max-width:610px){
+            h1, h2, form{
+                margin-left: 8%;
+            }
+        }
+
+        @media(max-width:610px){
+            h1{
+                margin-left: 8%;
+                margin-top: 12%;
+            }
+        }
+
+        @media(max-width:1039px){
+            #fundo-pequeno img{
+                position:absolute;
+                width: 580px;
+                height: 450px;
+                bottom: 0;
+                right: 0;
+                z-index: -1;
+            } 
+        }
+        @media(min-width:1039px){
+            #fundo-pequeno{
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
    <header>
-        <img src="/img/logo-orange-horizontal.png">
-        <img src="/img/lupa-orange.png">     
+        <img src="./img/logo-orange-horizontal.png">
+        <img src="./img/lupa-orange.png">     
    </header> 
    <h1>ASTÓRIA DRINKERIA</h1>
+   <div id="fundo-pequeno">
+    <img src="./img/festa-pequena.png"/>
+   </div>
         <h2>Preencha o formulário 
             <br>e ganhe <strong>20%</strong> de descontos <strong> nas sextas.</strong></h2>
     
