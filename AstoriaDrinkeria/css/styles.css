@@ -63,7 +63,16 @@ input{
     width: 280px;
     height: 25px;
     border-radius: 6px;
-    border-color: white;
+    border-color: rgb(245, 94, 7);
+    background-color: black;
+    color: black;
+}
+
+input:focus{
+    width: 280px;
+    height: 25px;
+    border-radius: 6px;
+    border-color: rgb(245, 94, 7);
     background-color: black;
     color: white;
 }
