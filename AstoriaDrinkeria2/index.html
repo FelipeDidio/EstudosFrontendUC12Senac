@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FOLHA DE ESTILO GERAL-->
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Astória Drinkeria</title>
+    <!--GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--FAVICON-->
+    <link rel="icon" href="./img/logo-orange-favicon.png">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/img/logo-black-horizontal.png">
+    </header> 
+    <main>
+        <h1>ASTÓRIA DRINKERIA</h1>
+        <h2>Preencha o formulário 
+        <br>e ganhe <strong>20%</strong> de descontos <strong> nas sextas.</strong></h2>
+<!--FORMULÁRIO-->
+        <form action="feedback-cadastro.html">
+            <label for="nome">Nome: (4 a 20 caracteres)</label>
+            <input type="text" name="nome" minlength="4" maxlength="20" size="20" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" size="38">
+            <button type="submit" name="enviar-cadastro">ENVIAR</button>
+        </form>
+    </main>
+    <h4>Compre antecipado com desconto</h4>
+    <footer> 
+        <a href="#" class="container-drinks">
+            <div class= "container-img-drinks">
+                <img src="/img/bebida-refrescante-transparente.png">
+            </div>
+            <div class="container-texto-drink">
+                <p class="texto-drink">Drink refrescante</p>
+                <h5 class="texto-drink">R$29,90</h5>
+            </div>
+        </a>
+        <a href="#" class="container-drinks">
+            <div class= "container-img-drinks">
+                <img src="/img/coquetel-de-aperol-spritz-transparente.png">
+            </div>
+            <div class="container-texto-drink">
+                <p class="texto-drink">Coquetel Aperol</p>
+                <h5 class="texto-drink">R$39,90</h5>
+            </div>
+        </a>
+        <a href="#" class="container-drinks">
+            <div class= "container-img-drinks">
+                <img src="/img/DinkAzul-Transparente.png">
+            </div>
+            <div class="container-texto-drink">
+                <p class="texto-drink">Drink Malibu</p>
+                <h5 class="texto-drink">R$49,90</h5>
+            </div>
+        </a>
+    </footer>
+</body>
+</html>

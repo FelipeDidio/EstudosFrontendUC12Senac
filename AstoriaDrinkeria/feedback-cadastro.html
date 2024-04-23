@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Efetuado</title>
+    <!--FOLHA DE ESTILO GERAL-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--FAVICON-->
+    <link rel="icon" href="./img/logo-orange-favicon.png">
+    <style>
+        @media(max-width:1000px){
+            body{
+                background-image: none;
+            }
+            .cadastro-h1{
+                text-align: center;
+                align-items: center;
+                margin-left: 0;
+            }
+        }
+
+        @media(max-width:1000px){
+            #fundo-pequeno img{
+                position:absolute;
+                width: 580px;
+                height: 600px;
+                bottom: 0;
+                right: 0;
+                z-index: -1;
+            } 
+        }
+        @media(min-width:1000px){
+            #fundo-pequeno{
+                display: none;
+            }
+        }
+    </style>
+    <title>Astória Drinkeria - Cadastro efetuado</title>
 </head>
 <body>
-    <h1>Cadastro efetuado com sucesso!</h1>
+    <h1 class="cadastro-h1">Cadastro efetuado com sucesso!</h1>
+    <div id="fundo-pequeno">
+        <img src="./img/festa-pequena.png"/>
+       </div>
 </body>
 </html>
